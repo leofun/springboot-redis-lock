@@ -1,1 +1,2 @@
-一个基于springboot+redis+redisson的分布式锁，springboot2.X的redis连接池从jedis换成了lettuce。 
+一个基于springboot+redis+redisson的分布式锁，
+springboot2.X的redis连接池从jedis换成了lettuce。 
