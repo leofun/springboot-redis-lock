@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  redis:
+    database: 1
+    host: 192.168.186.101
+    port: 6379
+    password: 123456
+    timeout: 1000
+    redisson:
+      config: classpath:redisson.yml
+    jedis:
+      pool:
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+        max-active: 8
